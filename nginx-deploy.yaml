@@ -13,7 +13,7 @@ spec:
         run: nginx-deploy
     spec:
       containers:
-      - image: rosehs00/test:web
+      - image: tj9024/test:html
         name: test
         ports:
         - containerPort: 80
